@@ -71,3 +71,21 @@ print(list_of_items)
 print(len(list_of_items))
 list_of_items.extend(range(1001, 2001))
 print(list_of_items)
+#why use a list 
+# instead or creating separate variables for each item we can store them in a list this makes our job easier this makes managing the complexity of our code easier when we need to manage multiple items performance task answer 
+
+# sets and tuples
+# sets and tuples are a;so park of the collections family of python
+set1 = {1, 2, 3, 4, 5}
+set2 = {"apple", "banana", "cherry"}
+print(set1)
+print(set2)
+set_with_duplicates = {1, 2, 2, 3, 4, 5}
+print(set_with_duplicates)
+print(3 in set1)
+print(6 in set1)
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = ("apple", "banana", "cherry")
+print(tuple1)
+print(tuple2)
+# tuples are immutable meanning they cannot be chagned after creation, for storing data that should not be modified 
