@@ -42,16 +42,6 @@ print(foods)
 foods.reverse()
 print(foods)
 
-# Create a list of 3 lists (matrix)
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],  # middle row
-    [7, 8, 9]
-]
-
-# Access the middle element
-middle_element = matrix[1][1]
-print(middle_element)
 
 # colections are used to store multiple items in a single variable
 # lists are ordered collections of items
